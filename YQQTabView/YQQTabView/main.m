@@ -14,3 +14,7 @@ int main(int argc, char * argv[]) {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
+
+
+//这个程序就是在不同的VIEw 里面画不同的图形
+

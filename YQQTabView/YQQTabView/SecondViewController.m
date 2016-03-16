@@ -7,7 +7,7 @@
 //
 
 #import "SecondViewController.h"
-
+#import "yqView.h"
 @interface SecondViewController ()
 
 @end
@@ -16,6 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    UIView *view=[[UIView alloc] initWithFrame:CGRectMake(120 , 120, 200, 200)];
+  //  view.backgroundColor=[UIColor colorWithRed:0.0 green:1.0 blue:0.0 alpha:1.0];
+    [self.view addSubview:view];
+    
+    CGRect rect3 = CGRectMake(120 , 120, 60, 60);
+    yqView *yView = [[yqView alloc]initWithFrame:rect3];
+    yView.backgroundColor=[UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+    [self.view addSubview:yView];//画圆
+
+    
+    
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
