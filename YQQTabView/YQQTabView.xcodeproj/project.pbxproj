@@ -18,6 +18,7 @@
 		4D1FF11E1C992EC6005918AE /* YQQTabViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FF11D1C992EC6005918AE /* YQQTabViewUITests.m */; };
 		4D1FF12D1C993F6D005918AE /* yqView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FF12C1C993F6D005918AE /* yqView.m */; };
 		4D1FF1331C994297005918AE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FF1321C994297005918AE /* ThirdViewController.m */; };
+		4DE6B57A1C9A73D200543133 /* xView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6B5791C9A73D200543133 /* xView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		4D1FF12C1C993F6D005918AE /* yqView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yqView.m; sourceTree = "<group>"; };
 		4D1FF1311C994297005918AE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		4D1FF1321C994297005918AE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		4DE6B5781C9A73D200543133 /* xView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xView.h; sourceTree = "<group>"; };
+		4DE6B5791C9A73D200543133 /* xView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				4D1FF1321C994297005918AE /* ThirdViewController.m */,
 				4D1FF12B1C993F6D005918AE /* yqView.h */,
 				4D1FF12C1C993F6D005918AE /* yqView.m */,
+				4DE6B5781C9A73D200543133 /* xView.h */,
+				4DE6B5791C9A73D200543133 /* xView.m */,
 				4D1FF1011C992EC5005918AE /* Main.storyboard */,
 				4D1FF1041C992EC5005918AE /* Assets.xcassets */,
 				4D1FF1061C992EC5005918AE /* LaunchScreen.storyboard */,
@@ -288,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE6B57A1C9A73D200543133 /* xView.m in Sources */,
 				4D1FF1001C992EC5005918AE /* SecondViewController.m in Sources */,
 				4D1FF0FA1C992EC5005918AE /* AppDelegate.m in Sources */,
 				4D1FF1331C994297005918AE /* ThirdViewController.m in Sources */,

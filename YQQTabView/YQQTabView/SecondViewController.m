@@ -7,7 +7,7 @@
 //
 
 #import "SecondViewController.h"
-#import "yqView.h"
+#import "xView.h"
 @interface SecondViewController ()
 
 @end
@@ -23,10 +23,13 @@
     [self.view addSubview:view];
     
     CGRect rect3 = CGRectMake(120 , 120, 60, 60);
-    yqView *yView = [[yqView alloc]initWithFrame:rect3];
+    xView *yView = [[xView alloc]initWithFrame:rect3];
     yView.backgroundColor=[UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
     [self.view addSubview:yView];//画圆
-
+    //为了让两个圆没有相关性（颜色各自有各自的）在这个里面重新定义一个圆
+    
+    
+    
     
     
     
