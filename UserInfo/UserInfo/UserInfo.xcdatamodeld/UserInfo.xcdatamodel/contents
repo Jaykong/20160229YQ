@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="EXPaperInfo" representedClassName="EXPaperInfo" syncable="YES">
+        <attribute name="addtime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paperid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="total" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userRecord" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EXPaperInfoRecord" inverseName="paperInfo" inverseEntity="EXPaperInfoRecord" syncable="YES"/>
+    </entity>
+    <entity name="EXPaperInfoRecord" representedClassName="EXPaperInfoRecord" syncable="YES">
+        <attribute name="answered" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="paperid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="paperInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EXPaperInfo" inverseName="userRecord" inverseEntity="EXPaperInfo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EXPaperInfo" positionX="-216" positionY="-36" width="128" height="133"/>
+        <element name="EXPaperInfoRecord" positionX="-45" positionY="54" width="128" height="88"/>
+    </elements>
+</model>
